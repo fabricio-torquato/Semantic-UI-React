@@ -1,0 +1,19 @@
+.slider {
+  background: #111;
+  width: 950px;
+  height: 350px;
+  padding: 10px;
+  margin: 20px;
+  position: relative;
+  top: 10px;
+  box-shadow: 0 30px 50px -20px black;
+  overflow: hidden;
+}
+
+.images {
+  background: #ccc;
+  width: 100%;
+  height: 74%;
+  transition: background .5s linear;
+  animation: slideshow 10s steps(1, start);
+}
